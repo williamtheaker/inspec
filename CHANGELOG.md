@@ -61,39 +61,6 @@
 - CFINSPEC-400 Fix for verify pipeline failure [#6218](https://github.com/inspec/inspec/pull/6218) ([Vasu1105](https://github.com/Vasu1105)) <!-- 5.18.17 -->
 - Docs spellcheck [#6214](https://github.com/inspec/inspec/pull/6214) ([IanMadd](https://github.com/IanMadd)) <!-- 5.18.16 -->
 - Trivial README change to trigger new omnibus build [#6203](https://github.com/inspec/inspec/pull/6203) ([clintoncwolfe](https://github.com/clintoncwolfe)) <!-- 5.18.15 -->
-=======
-<!-- latest_release 5.18.5 -->
-## [v5.18.5](https://github.com/inspec/inspec/tree/v5.18.5) (2022-06-13)
-
-#### Merged Pull Requests
-- add ruby test 3.1 in verify pipeline [#5892](https://github.com/inspec/inspec/pull/5892) ([jayashrig158](https://github.com/jayashrig158))
-<!-- latest_release -->
-
-<!-- release_rollup since=5.17.4 -->
-### Changes since 5.17.4 release
-
-#### Merged Pull Requests
-- add ruby test 3.1 in verify pipeline [#5892](https://github.com/inspec/inspec/pull/5892) ([jayashrig158](https://github.com/jayashrig158)) <!-- 5.18.5 -->
-- Add inspec-6 branch as release branch [#6136](https://github.com/inspec/inspec/pull/6136) ([clintoncwolfe](https://github.com/clintoncwolfe)) <!-- 5.18.4 -->
-- Dk/matchers rewrite [#6007](https://github.com/inspec/inspec/pull/6007) ([dkumaras](https://github.com/dkumaras)) <!-- 5.18.3 -->
-- Fixed Lint/DuplicateMethods: Method Inspec::Resources::Service#resource_id is defined at both [#6132](https://github.com/inspec/inspec/pull/6132) ([Vasu1105](https://github.com/Vasu1105)) <!-- 5.18.2 -->
-- CFINSPEC-291: Fix `processes` resource to consider processes without `path` on Windows [#6100](https://github.com/inspec/inspec/pull/6100) ([ahasunos](https://github.com/ahasunos)) <!-- 5.18.1 -->
-- CFINSPEC-167: Profile Signing Rollup [#5995](https://github.com/inspec/inspec/pull/5995) ([Vasu1105](https://github.com/Vasu1105)) <!-- 5.18.0 -->
-- Bump berkshelf from 8.0.0 to 8.0.2 in /omnibus [#6114](https://github.com/inspec/inspec/pull/6114) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 5.17.18 -->
-- CFINSPEC-262 - Handle resource_id in error situation [#6119](https://github.com/inspec/inspec/pull/6119) ([Vasu1105](https://github.com/Vasu1105)) <!-- 5.17.17 -->
-- Handle resource_id in error situations [#6118](https://github.com/inspec/inspec/pull/6118) ([ahasunos](https://github.com/ahasunos)) <!-- 5.17.16 -->
-- CFINSPEC-273 Adds resource_id group 12 [#6112](https://github.com/inspec/inspec/pull/6112) ([Vasu1105](https://github.com/Vasu1105)) <!-- 5.17.15 -->
-- CFINSPEC-270 Adds resource_id group9 [#6111](https://github.com/inspec/inspec/pull/6111) ([Vasu1105](https://github.com/Vasu1105)) <!-- 5.17.14 -->
-- CFINSPEC-265  Group 4 - Added resource_id in resources [#6109](https://github.com/inspec/inspec/pull/6109) ([Nik08](https://github.com/Nik08)) <!-- 5.17.13 -->
-- CFINSPEC-269 Adds resource_id group 8 [#6107](https://github.com/inspec/inspec/pull/6107) ([Vasu1105](https://github.com/Vasu1105)) <!-- 5.17.12 -->
-- CFINSPEC-268 Adds resource_id group 7 [#6105](https://github.com/inspec/inspec/pull/6105) ([Vasu1105](https://github.com/Vasu1105)) <!-- 5.17.11 -->
-- Fix the key duplication error warning in the mock_loader.rb [#6120](https://github.com/inspec/inspec/pull/6120) ([Vasu1105](https://github.com/Vasu1105)) <!-- 5.17.10 -->
-- CFINSPEC-266: resource_ids group 5 [#6103](https://github.com/inspec/inspec/pull/6103) ([ahasunos](https://github.com/ahasunos)) <!-- 5.17.9 -->
-- CFINSPEC-262 Adds resource_id group 1 [#6102](https://github.com/inspec/inspec/pull/6102) ([Vasu1105](https://github.com/Vasu1105)) <!-- 5.17.8 -->
-- CFINSPEC-267: resource_ids group 6 [#6101](https://github.com/inspec/inspec/pull/6101) ([ahasunos](https://github.com/ahasunos)) <!-- 5.17.7 -->
-- CFINSPEC-95: Enhance `x509_certificate` resource [#6041](https://github.com/inspec/inspec/pull/6041) ([ahasunos](https://github.com/ahasunos)) <!-- 5.17.6 -->
-- Bump rack from 2.2.3 to 2.2.3.1 in /omnibus [#6098](https://github.com/inspec/inspec/pull/6098) ([dependabot[bot]](https://github.com/dependabot[bot])) <!-- 5.17.5 -->
->>>>>>> [WIP] CFINSPEC-349: Initialize suggest plugin (#6143)
 <!-- release_rollup -->
 
 <!-- latest_stable_release -->
