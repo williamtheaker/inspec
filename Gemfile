@@ -8,6 +8,7 @@ gem "inspec", path: "."
 # However, AppBundler requires a top-level Gemfile.lock with inspec-bin
 # in it in order to package the executable. Hence the odd backwards dependency.
 gem "inspec-bin", path: "./inspec-bin"
+gem "train", git: 'https://github.com/inspec/train.git' branch: "CHEF-1895-update-googleauth"
 
 gem "ffi", ">= 1.9.14", "!= 1.13.0", "!= 1.14.2"
 
