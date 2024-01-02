@@ -33,6 +33,8 @@ else
   install_dir "#{default_root}/#{name}"
 end
 
+generate_sbom true
+
 build_version Inspec::VERSION
 build_iteration 1
 
