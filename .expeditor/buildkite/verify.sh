@@ -51,6 +51,16 @@ bundle config --local path vendor/bundle
 bundle config set --local without deploy kitchen
 bundle install --jobs=7 --retry=3
 
+echo "--- installing syft"
+curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b /usr/local/bin
+echo "--- syft installed successfully"
+
+echo "--- checking syft version"
+syft version
+
+echo "--- generating sbom"
+syft . -o spdx-json
+
 echo "--- push bundle cache"
 push_bundle
 
