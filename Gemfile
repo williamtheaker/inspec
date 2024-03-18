@@ -26,6 +26,9 @@ gem "ffi", ">= 1.9.14", "!= 1.13.0", "!= 1.14.2"
 # but our runtime dep is still 3.9+
 gem "rspec", ">= 3.10"
 
+# train branch for latest gem dependencies
+gem "train", git: "https://github.com/inspec/train.git", tag: "dev3.11.2"
+
 group :omnibus do
   gem "rb-readline"
   gem "appbundler"
