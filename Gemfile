@@ -32,6 +32,7 @@ gem "train-core", git: "https://github.com/inspec/train.git", tag: "dev3.11.2"
 gem "train-aws", git: "https://github.com/inspec/train-aws.git", branch: "bs/update-train-core"
 gem "train-winrm", git: "https://github.com/inspec/train-winrm.git", branch: "bs/update-train-core"
 gem "train-habitat", git: "https://github.com/inspec/train-habitat.git", branch: "bs/update-train-core"
+gem "train-kubernetes", git: "https://github.com/inspec/train-kubernetes.git", branch: "bs/update-train-core"
 
 group :omnibus do
   gem "rb-readline"
