@@ -30,6 +30,9 @@ gem "rspec", ">= 3.10"
 gem "train", git: "https://github.com/inspec/train.git", branch: "bs/fix-CHEF-8031"
 
 gem "train-core", git: "https://github.com/inspec/train.git", branch: "bs/fix-CHEF-8031"
+gem "train-aws", git: "https://github.com/inspec/train-aws.git", branch: "bs/update-train-core"
+gem "train-winrm", git: "https://github.com/inspec/train-winrm.git", branch: "bs/update-train-core"
+gem "train-habitat", git: "https://github.com/inspec/train-habitat.git", branch: "bs/update-train-core"
 
 group :omnibus do
   gem "rb-readline"
