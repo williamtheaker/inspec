@@ -9,7 +9,7 @@ require_relative "tasks/docs"
 
 Bundler::GemHelper.install_tasks name: "inspec-core"
 Bundler::GemHelper.install_tasks name: "inspec"
-
+Bundler.setup(:default)
 task :install do
   inspec_bin_path = ::File.join(::File.dirname(__FILE__), "inspec-bin")
   Dir.chdir(inspec_bin_path)

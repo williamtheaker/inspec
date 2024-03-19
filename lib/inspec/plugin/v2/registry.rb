@@ -1,6 +1,8 @@
 require "forwardable" unless defined?(Forwardable)
 require "singleton" unless defined?(Singleton)
 require "train"
+require "bundler"
+Bundler.setup(:default)
 
 require_relative "status"
 require_relative "activator"

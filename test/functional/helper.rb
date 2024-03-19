@@ -1,5 +1,7 @@
 require "helper"
 require "train"
+require "bundler"
+Bundler.setup(:default)
 
 ENV["CHEF_LICENSE"] = "accept-no-persist"
 

@@ -5,6 +5,8 @@ require "inspec/config"
 require "inspec/version"
 require "inspec/resource"
 require "inspec/dsl" # for method_missing_resource
+require "bundler"
+Bundler.setup(:default)
 
 module Inspec
   class Backend

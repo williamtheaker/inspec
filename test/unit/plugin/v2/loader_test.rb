@@ -4,7 +4,8 @@ require "helper"
 require "inspec/plugin/v2"
 
 require "train" # Needed for Train plugin testing
-
+require "bundler"
+Bundler.setup(:default)
 class Inspec::Plugin::V2::Loader
   public :detect_system_plugins
 end
