@@ -29,6 +29,8 @@ gem "rspec", ">= 3.10"
 # train branch for latest gem dependencies
 gem "train", git: "https://github.com/inspec/train.git", tag: "dev3.11.2"
 
+gem "train-core", git: "https://github.com/inspec/train.git", tag: "dev3.11.2"
+
 group :omnibus do
   gem "rb-readline"
   gem "appbundler"
