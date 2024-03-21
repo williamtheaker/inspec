@@ -27,6 +27,7 @@ gem "ffi", ">= 1.9.14", "!= 1.13.0", "!= 1.14.2"
 gem "rspec", ">= 3.10"
 
 gem "train", git: "https://github.com/inspec/train.git", branch: "bs/update-train-core"
+gem "train-core", git: "https://github.com/inspec/train.git", branch: "bs/fix-CHEF-8031"
 
 # train branch for latest gem dependencies
 # gem "train", git: "https://github.com/inspec/train.git", tag: "dev3.11.2"
