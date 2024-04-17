@@ -10,4 +10,6 @@ cd test/artifact
 PATH=/opt/inspec/bin:/opt/inspec/embedded/bin:$PATH
 export PATH
 
+export OPENSSL_VERSION="3.0.11"
+
 rake
