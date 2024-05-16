@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/chef/omnibus-software.git
-  revision: 220f29db3e1e8935cd2fa1e5cd114cac9d68eec6
-  branch: CHEF-12109-omnibus-sw-support-ruby-3-3-inspec
+  revision: 88516f348c2cf18638600f62e1efa5af1c356d72
+  branch: main
   specs:
-    omnibus-software (24.4.320)
+    omnibus-software (24.5.322)
       omnibus (>= 9.0.0)
 
 GIT
